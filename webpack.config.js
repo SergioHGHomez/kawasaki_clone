@@ -6,6 +6,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
     },
+    mode: 'development',
     resolve: {
         extensions: ['.js', '.jsx'],
 
@@ -27,10 +28,15 @@ module.exports = {
             }
         ]
     },
-    Plugins: [
+    plugins: [
         new HtmlWebpackPlugin({
             template: './public/index.html',
             filename: "./index.html"
         })
-    ]
+    ],
+    devServer: {
+        static: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 3005,
+    },
 }
