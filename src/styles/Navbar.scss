@@ -1,0 +1,44 @@
+@import 'vars';
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo {
+    width: 180px;
+    padding: 8px;
+}
+
+.navbar_list {
+    width: 120px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar_list li {
+    a{
+        text-decoration: none;
+    }
+
+}
+
+.navbar_icons{
+    width: 15px;
+}
+
+.navbar_menu-button{
+    background: var(--black);
+    border: none;
+}
