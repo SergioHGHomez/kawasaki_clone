@@ -6,11 +6,6 @@
     flex-direction: column;
 }
 
-.menuMobile_greenlines{
-    height: 26px;
-    width: 100%;
-}
-
 .menuMobile ul{
     list-style: none;
     padding: 0;
@@ -19,11 +14,15 @@
 }
 
 .menuMobile_item-options{
-    display: flex;
     background: $--black;
     border-bottom: 3px solid $--dark_grey;
-    align-items: center;
     padding-left: 16px;
+}
+
+.menuMobile_item-options > a{
+    display: flex;
+    align-items: center;
+
 }
 
 .menuMobile_item-options img{

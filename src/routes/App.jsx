@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "@containers/Layout";
 import Home from "@pages/Home";
 import NotFound from "@pages/NotFound";
+import Shopping_cart from "../pages/Shopping_cart";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/zx-6r-general" element={<Home />} />
+                    <Route exact path="/shopping-cart" element={<Shopping_cart />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Layout>

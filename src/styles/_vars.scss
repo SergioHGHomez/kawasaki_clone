@@ -1,28 +1,25 @@
-:root{
-    --kawasaki_green: #69bd27;
-    --kawasaki_green_secondary: #32cd32;
-    --black: #000000;
-    --white: #fff;
-    --grey: #86868d;
-    --light_grey: #b5b5b9;
-    --dark_grey: #202021;
-    // font size
-    --font_s: 13px;
-}
-
+// colors
+$--base-color: #e5e5e9;
 $--black: #000;
+$--almost-black: #111112;
 $--kawasaki_green: #69bd27;
 $--kawasaki_green_secondary: #32cd32;
-$--black: #000000;
 $--white: #fff;
 $--grey: #86868d;
 $--light_grey: #b5b5b9;
 $--dark_grey: #202021;
+
 // font size
 $--font_s: 13px;
+$--font_standart: 16px;
 $--font_m: 18px;
+$--font_l: 20px;
+
 // font weight
-$--regular: 300;
+$--light: 300;
+$--regular: 400;
 $--big: 500;
+
 // font family
 $--principal_font: 'Oswald', sans-serif;
+$--secondary_font: 'Fira Sans', sans-serif;

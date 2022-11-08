@@ -39,6 +39,11 @@
 }
 
 .navbar_menu-button{
-    background: var(--black);
+    background: $--black;
     border: none;
+}
+
+.menuMobile_greenlines{
+    height: 26px;
+    width: 100%;
 }

@@ -1,0 +1,30 @@
+@import 'vars';
+
+.footer_privacy {
+    background: $--black;
+    
+}
+.footer_privacy_text{
+    padding: 8px 48px 8px 48px;
+}
+
+.footer_privacy_text > p{
+    margin: 0;
+    margin-bottom: 22px;
+    color: $--white;
+    text-align: center;
+    font-family: $--secondary_font;
+    font-size: $--font_s;
+}
+
+.footer_privacy_list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer_privacy_list a img{
+    width: 25px;
+}

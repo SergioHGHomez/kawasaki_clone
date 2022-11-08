@@ -5,10 +5,18 @@ import testDriveIcon from '../assets/icons/left-intersection.png';
 import dealerIcon from '../assets/icons/pin.png';
 import menuIcon from '../assets/icons/more.png';
 import Menu_mobile from "./Menu_mobile";
+import greenLines_img from "../assets/images/green_lines.jpg";
+import { useState } from "react";
 import '../styles/Navbar.scss';
 
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const menuToggle = () => {
+    setMenuOpen(!menuOpen);
+  }
+
   return (
     <nav className="navbar">
       <div className="navbar_main">
@@ -32,13 +40,14 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <button className="navbar_menu-button">
+          <button className="navbar_menu-button" onClick={() => {menuToggle()}}>
             <img className="navbar_icons" src={menuIcon} alt="menu options" />
           </button>
         </li>
       </ul>
       </div>
-      <Menu_mobile />
+      <img className="menuMobile_greenlines" src={greenLines_img} alt="" />
+      { menuOpen && <Menu_mobile />}
     </nav>
   );
 };

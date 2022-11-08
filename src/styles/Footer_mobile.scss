@@ -1,0 +1,9 @@
+@import 'vars';
+
+.footer_mobile{
+    margin-top: 200px;
+    background: $--black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

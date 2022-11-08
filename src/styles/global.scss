@@ -4,10 +4,15 @@ $base-color: #eee;
 $color: rgba(black, 0.88);
 
 body{
-    background-color: $base-color;
+    
+    background-color: $--base-color;
     color: $color;
     margin: 0;
     min-width: 320px;
+    height: 100%;
     font-family: $--principal_font;
     font-weight: $--big;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

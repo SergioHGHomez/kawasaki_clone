@@ -1,0 +1,79 @@
+@import 'vars';
+
+.shopping-card {
+    background: $--white;
+    margin: 16px;
+    padding: 16px;
+    box-shadow: 0 0 10px 0 rgba($color: #717171, $alpha: 0.5);
+}
+
+.shopping-card>img {
+    width: 270px;
+}
+
+.shopping-card>h2 {
+    font-size: $--font_standart;
+    font-family: $--principal_font;
+    font-weight: $--big;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.shopping-card>p:nth-of-type(1) {
+    font-size: $--font_standart;
+    font-family: $--secondary_font;
+    font-weight: $--regular;
+    margin: 0 0 40px 0;
+
+}
+
+.shopping-card>label {
+    font-size: $--font_s;
+}
+
+.quantitiContainer{
+ margin-bottom: 48px;   
+}
+
+.quantitiContainer select{
+    width: 64px;
+    height: 36px;
+    padding: 4px;
+    border: 1px solid $--light_grey;
+    border-radius: 4px;
+    margin-right: 26px;
+}
+
+.quantitiContainer button{
+    width: 72px;
+    height: 42px;
+    background: $--black;
+    color: $--white;
+    font-family: $--principal_font;
+    font-weight: $--big;
+    font-size: $--font_standart;
+    text-transform: uppercase;
+}
+
+.shopping-card_price{
+    font-size: $--font_l;
+    font-weight: $--big;
+}
+
+.shopping-card_remove{
+    display: flex;
+    background: none;
+    border: none;
+    align-items: center;
+}
+
+.shopping-card_remove img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.shopping-card_remove p{
+    font-family: $--principal_font;
+    color: $--grey;
+    text-decoration: underline;
+}

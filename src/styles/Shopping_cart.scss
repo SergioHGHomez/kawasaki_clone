@@ -1,0 +1,11 @@
+@import 'vars';
+
+.shopping-cart h1{
+    font-size: $--font_l;
+    font-weight: $--regular;
+    margin: 24px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid $--kawasaki_green;
+}

@@ -1,0 +1,56 @@
+@import 'vars';
+
+.moreInfo_mobile {
+    display: flex;
+    flex-direction: column;
+    background: $--almost-black;
+    padding: 62px 48px 48px 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.moreInfo_mobile li button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $--almost-black;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid $--grey;
+    padding: 0;
+    padding-bottom: 8px;
+
+}
+
+.moreInfo_mobile li button:focus {
+
+    outline: 3px solid $--kawasaki_green;
+}
+
+.moreInfo_mobile li button p {
+    color: $--white;
+    text-transform: uppercase;
+    font-size: $--font_m;
+    font-family: $--principal_font;
+    margin: 0;
+}
+
+.moreInfo_mobile li button img {
+    width: 14px;
+}
+
+.moreInfo_mobile_sub-List {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.moreInfo_mobile_sub-List li a{
+    font-family: $--secondary_font;
+    font-weight: 400;
+    text-decoration: none;
+    color: $--white;
+    font-size: $--font_s;
+
+}
