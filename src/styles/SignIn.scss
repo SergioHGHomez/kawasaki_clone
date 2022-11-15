@@ -1,0 +1,54 @@
+@import 'vars';
+
+.SignIn{
+    display: flex;
+    flex-direction: column;
+}
+
+.SignIn h2{
+    font-size: $--font_m;
+    font-weight: $--regular;
+    margin-bottom: 16px;
+}
+
+.SignIn > p{
+    font-size: $--font_s;
+    font-family: $--secondary_font;
+    margin: 0;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.SignIn label{
+    font-size: $--font_standart;
+    font-weight: $--regular;
+    font-family: $--secondary_font;
+    text-transform: capitalize;
+}
+
+.SignIn input[type=text]{
+    height: 32px;
+    border: 1px solid $--light_grey;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.SignIn_show-password{
+    display: flex;
+}
+
+.SignIn_show-password p{
+    font-family: $--secondary_font;
+    font-size: $--font_s;
+}
+
+.SignIn_submit{
+    width: 110px;
+    height: 60px;
+    font-size: $--font_m;
+    font-family: $--principal_font;
+    text-transform: uppercase;
+    color: $--white;
+    background: $--black;
+    border: 3px solid $--base-color;
+}
